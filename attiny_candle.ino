@@ -2,7 +2,7 @@
 int p_red1 = 0;
 int p_red2 = 1;
 int p_yel3 = 4;
-int pin[] = {0,1,4}
+int pin[] = {0,1,4};
 volatile uint8_t* Port[] = {&OCR0A, &OCR0B, &OCR1B};
 
 int raiseBr[] = {1,1,1};
